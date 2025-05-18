@@ -3,25 +3,17 @@ import React from 'react';
 // Admin Imports
 
 // Icon Imports
-import { FaBridge } from "react-icons/fa6";
-import { GiWashingMachine } from "react-icons/gi";
+import { FaRegCreditCard } from "react-icons/fa6";
+import { GiFarmer } from "react-icons/gi";
 import { FaHistory } from "react-icons/fa";
 import { MdContactSupport } from "react-icons/md";
 import { TbBrandGithub } from "react-icons/tb";
 const routes = [
   {
-    name: 'Frog-Bridge',
+    name: 'My Cards',
     layout: '/home',
     path: 'bridge',
-    icon: <FaBridge className="h-6 w-6" />,
-  },
-  {
-    name: 'Frog-Mixer',
-    layout: '/home',
-    path: 'dev',
-    icon: <GiWashingMachine className="h-6 w-6" />,
-
-    secondary: true,
+    icon: <FaRegCreditCard className="h-6 w-6" />,
   },
   {
     name: 'History',
@@ -30,21 +22,28 @@ const routes = [
     path: 'dev',
   },
   {
+    name: 'Farm',
+    layout: '/home',
+    path: 'dev',
+    icon: <GiFarmer className="h-6 w-6" />,
+    secondary: true,
+  },
+  {
     name: 'Support',
     layout: '/links',
     path: "http://t.me/TonspaySupport_bot",
     icon: <MdContactSupport className="h-6 w-6" />,
   },
   {
-    name: 'Community',
+    name: 'Community Channel',
     layout: '/links',
-    path: "https://t.me/+4JUfM1MgH5UyNzQ1",
+    path: "https://t.me/+GU7hK-z0jVthYjQ1",
     icon: <MdContactSupport className="h-6 w-6" />,
   },
   {
     name: 'Source-Code',
     layout: '/links',
-    path: 'https://github.com/frogmixer',
+    path: 'https://github.com/Tonscredit',
     icon: <TbBrandGithub className="h-6 w-6" />,
   }
 ];

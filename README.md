@@ -1,11 +1,17 @@
-# Frogmixer TMA
+# Tonscredit TMA
 
-This repo is build Frogmixer-bridge  and Frogmixer-mixer on TMA . Base on [@horizon-ui](https://github.com/horizon-ui)
+This repo is build a TMA version Tonscard miniapp
 
-You can visit :
+Support follow functions :
 
--[Frogmixer-Brdige](https://t.me/frogbridge_bot)
+- Credit card management
 
--[Frogmixer-Mixer](https://t.me/frogmixer_bot)
+- Credit card apply
 
-For more details .
+- Credit card close
+
+- Credit card deposite
+
+- Fund management
+
+- Extension rules
