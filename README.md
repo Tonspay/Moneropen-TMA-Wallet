@@ -1,17 +1,15 @@
-# Tonscredit TMA
+# Moneropen TMA Wallet
 
-This repo is build a TMA version Tonscard miniapp
+Moneropen is a TMA base monero wallet . Fully open source . 
 
-Support follow functions :
+All the key information storage base on Telegram Miniapp Cloud Storage
 
-- Credit card management
+Seed keeper Base on [Telegram Webapp Cloudstorage Multichain Wallet](https://www.npmjs.com/package/@tonsprotocol/telegram-cloudstorage-wallet)
 
-- Credit card apply
+Bridge service provider by [Frogemixer Bridge](https://github.com/frogmixer)
 
-- Credit card close
+## Features
 
-- Credit card deposite
-
-- Fund management
-
-- Extension rules
+- #### Safe Transfer
+    - Use BIP39 to generate a temporary wallet , Transfer to temporary  wallet then transfer to target wallet .
+    - Allows users to mix the XMR with monero , keep your origin wallet address in secret 

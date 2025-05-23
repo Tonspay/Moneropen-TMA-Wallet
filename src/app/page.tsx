@@ -5,6 +5,6 @@ import { useEffect } from 'react';
 
 export default function Home({}) {
   useEffect(() => {
-    redirect('/home/bridge');
+    redirect('/wallet/main');
     }, []);
 }
